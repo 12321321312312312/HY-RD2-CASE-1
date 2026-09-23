@@ -1,0 +1,19 @@
+when:
+  - event: manual
+
+labels:
+  demo: c3
+  kind: gpu
+
+priority: 0
+
+concurrency:
+  limit: 1
+  group: rd2-rubric-41
+
+steps:
+  early:
+    image: pwsh
+    commands:
+      - Write-Output "earlier pipeline"
+      - Start-Sleep -Seconds 30
