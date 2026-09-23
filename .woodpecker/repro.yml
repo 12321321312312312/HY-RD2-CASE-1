@@ -3,17 +3,17 @@ when:
 
 labels:
   demo: c3
-  kind: gpu
+  kind: cpu
 
-priority: 0
+priority: 9
 
 concurrency:
   limit: 1
   group: rd2-rubric-41
 
 steps:
-  early:
+  late:
     image: pwsh
     commands:
-      - Write-Output "earlier pipeline"
+      - Write-Output "later pipeline"
       - Start-Sleep -Seconds 30
