@@ -8,7 +8,7 @@ labels:
 priority: 0
 
 concurrency:
-  limit: 1
+  limit: 2
   group: rd2-rubric-41
 
 steps:
