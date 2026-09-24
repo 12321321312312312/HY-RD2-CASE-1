@@ -3,7 +3,7 @@ when:
 
 labels:
   demo: c3
-  kind: gpu
+  
 
 priority: 0
 
