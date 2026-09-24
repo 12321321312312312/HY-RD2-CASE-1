@@ -3,12 +3,12 @@ when:
 
 labels:
   demo: c3
-  kind: cpu
+  
 
 priority: 9
 
 concurrency:
-  limit: 1
+  limit: 2
   group: rd2-rubric-41
 
 steps:
